@@ -1,0 +1,13 @@
+name: Deploy
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: redkubes/docusaurus-deploy-action@v1
+        with:
+          git-user: sbouaked
+          git-password: ${{ secrets.GITHUB_TOKEN }}
+          deployment-branch: gh-pages
