@@ -95,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/azimuttapp,
+                href: 'https://twitter.com/azimuttapp',
               },
             ],
           },
