@@ -67,7 +67,7 @@ const config = {
         },
         items: [
           {label: 'Documentation', to: '/docs'},
-          {label: 'Website', href: 'https://azimutt.app'},
+          {label: 'Azimutt app', href: 'https://azimutt.app'},
         ],
       },
       footer: {
@@ -76,13 +76,15 @@ const config = {
           {
             title: 'Documentation',
             items: [
-              {label: 'Introduction', to: '/docs'}
+              {label: 'Introduction', to: '/docs'},
+              {label: 'Export your database schema', to: '/docs/category/export-your-database-schema'},
+              {label: 'Azimutt Markup Language (AML)', to: '/docs/category/azimutt-markup-language'},
             ],
           },
           {
             title: 'Community',
             items: [
-              {label: 'Website', href: 'https://azimutt.app'},
+              {label: 'Azimutt app', href: 'https://azimutt.app'},
               {label: 'Twitter', href: 'https://twitter.com/azimuttapp'},
               {label: 'LinkedIn', href: 'https://www.linkedin.com/company/azimuttapp'}
             ],
@@ -91,7 +93,7 @@ const config = {
             title: 'More',
             items: [
               {label: 'Blog', to: 'https://azimutt.app/blog'},
-              {label: 'GitHub', href: 'https://github.com/azimuttapp'}
+              {label: 'GitHub', href: 'https://github.com/azimuttapp/azimutt'}
             ],
           },
         ],

@@ -1,30 +1,16 @@
-# Website
+# Azimutt documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is the [Azimutt documentation](https://docs.azimutt.app) powered by [Docusaurus 2](https://docusaurus.io).
 
-### Installation
+If you want to use Azimutt, see you there: [azimutt.app](https://azimutt.app) 😉
 
-```
-$ yarn
-```
+## Development
 
-### Local Development
+- Installation: `yarn`
+- Dev server: `yarn start`
+- Website build: `yarn build` (static content will be in `build` folder)
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
+## Deployment
 
 Using SSH:
 
