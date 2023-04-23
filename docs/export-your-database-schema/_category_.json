@@ -1,7 +1,10 @@
 {
-  "label": "Export your database schema",
   "position": 2,
+  "label": "Export your database schema",
   "link": {
     "type": "generated-index"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
   }
 }
